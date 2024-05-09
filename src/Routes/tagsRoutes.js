@@ -11,7 +11,7 @@ router.post('/create', authMiddleware.verifyToken,tagValidation, tagController.c
 router.get('/gettags', authMiddleware.verifyToken,tagController.getAllTags);
 
 // Get tag by ID
-router.get('/gettag/:id', tagController.getTagsById);
+router.get('/gettag/:id', authMiddleware.verifyToken,tagController.getTagsById);
 
 // Update tag
 router.put('/updatetag/:id', authMiddleware.verifyToken,tagController.updateTag);
