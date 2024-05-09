@@ -1,0 +1,41 @@
+# Dependency directories
+node_modules/
+
+# Testing directories
+coverage/
+.nyc_output/
+
+# Environment files
+.env
+
+# IDE and editor files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# Build output
+dist/
+out/
+build/
+*.tgz
+
+# Miscellaneous
+*.bak
+*.lock
+*.orig
+*.tmp
+*.backup
+*.csv
+*.log.*
+*.test
+*.config.js
+*.pid
